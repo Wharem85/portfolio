@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--border)] bg-[var(--bg)]/85 backdrop-blur-md">
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+      <nav className="mx-auto flex w-[80%] items-center justify-between py-4">
         <a href="#top" className="font-mono text-sm font-semibold tracking-tight text-[var(--text)]">
           wilmer@monterrozo<span className="text-[var(--text-muted)]">:~$</span>
           <span className="cursor-block ml-1" />
@@ -68,7 +68,7 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <ul className="flex flex-col gap-1 border-t border-[var(--border)] px-6 py-4 md:hidden">
+        <ul className="mx-auto flex w-[80%] flex-col gap-1 border-t border-[var(--border)] py-4 md:hidden">
           {links.map((link) => (
             <li key={link.href}>
               <a

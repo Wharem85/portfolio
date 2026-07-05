@@ -194,9 +194,9 @@ export const content: Record<Lang, ContentShape> = {
       items: [
         {
           name: 'Pita con Nudo',
-          role: 'Freelance · Frontend Developer',
+          role: 'Freelance · Frontend Developer for Formula Systems',
           description:
-            "E-commerce storefront for baby and mom products, currently live in production. The project won Shark Tank Guatemala and was then assigned to a company that brought me on as a freelance frontend developer to build the entire storefront — product catalog, cart, and checkout — with Next.js.",
+            'E-commerce storefront for baby and mom products, currently live in production. The project won Shark Tank Guatemala and was then assigned to Formula Systems, which brought me on as a freelance frontend developer to build the entire storefront — product catalog, cart, and checkout — with Next.js.',
           badge: 'Shark Tank Guatemala winner',
           stack: ['Next.js', 'E-commerce'],
           url: 'https://www.pitaconnudo.com/',
@@ -204,9 +204,9 @@ export const content: Record<Lang, ContentShape> = {
         },
         {
           name: 'Learniapp',
-          role: 'Freelance · Frontend Developer',
+          role: 'Freelance · Frontend Developer for Nekodee',
           description:
-            'Cloud-based school management platform for private schools, centralizing student records, attendance, grades, and parent communication in a single tool. I built the web interface — dashboards, parent portal, and academic modules — with Next.js.',
+            'Cloud-based school management platform for private schools, centralizing student records, attendance, grades, and parent communication in a single tool. Hired by Nekodee as a freelance frontend developer, I built the web interface — dashboards, parent portal, and academic modules — with Next.js.',
           stack: ['Next.js', 'School Management'],
           url: 'https://www.learniapp.com/es',
           urlDisplay: 'learniapp.com',
@@ -361,9 +361,9 @@ export const content: Record<Lang, ContentShape> = {
       items: [
         {
           name: 'Pita con Nudo',
-          role: 'Freelance · Frontend Developer',
+          role: 'Freelance · Frontend Developer para Formula Systems',
           description:
-            'Storefront de e-commerce de productos para bebés y mamás, actualmente en producción. El proyecto fue ganador de Shark Tank Guatemala y luego fue asignado a una empresa que me contrató como freelance para construir todo el storefront — catálogo de productos, carrito y checkout — con Next.js.',
+            'Storefront de e-commerce de productos para bebés y mamás, actualmente en producción. El proyecto fue ganador de Shark Tank Guatemala y luego fue asignado a Formula Systems, empresa que me contrató como freelance para construir todo el storefront — catálogo de productos, carrito y checkout — con Next.js.',
           badge: 'Ganador de Shark Tank Guatemala',
           stack: ['Next.js', 'E-commerce'],
           url: 'https://www.pitaconnudo.com/',
@@ -371,9 +371,9 @@ export const content: Record<Lang, ContentShape> = {
         },
         {
           name: 'Learniapp',
-          role: 'Freelance · Frontend Developer',
+          role: 'Freelance · Frontend Developer para Nekodee',
           description:
-            'Plataforma de gestión escolar en la nube para colegios privados, que centraliza registros de estudiantes, asistencia, calificaciones y comunicación con padres en una sola herramienta. Construí la interfaz web — dashboards, portal de padres y módulos académicos — con Next.js.',
+            'Plataforma de gestión escolar en la nube para colegios privados, que centraliza registros de estudiantes, asistencia, calificaciones y comunicación con padres en una sola herramienta. Contratado por Nekodee como freelance, construí la interfaz web — dashboards, portal de padres y módulos académicos — con Next.js.',
           stack: ['Next.js', 'Gestión Escolar'],
           url: 'https://www.learniapp.com/es',
           urlDisplay: 'learniapp.com',
