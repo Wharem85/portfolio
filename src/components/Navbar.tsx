@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import logoMask from '../assets/logo-w-mask.png';
 
 export default function Navbar() {
   const { t, lang, toggleLang } = useLanguage();
@@ -18,7 +19,21 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--border)] bg-[var(--bg)]/85 backdrop-blur-md">
       <nav className="mx-auto flex w-[80%] items-center justify-between py-4">
-        <a href="#top" className="font-mono text-sm font-semibold tracking-tight text-[var(--text)]">
+        <a href="#top" className="flex items-center gap-2 font-mono text-sm font-semibold tracking-tight text-[var(--text)]">
+          <span
+            className="block h-[18px] w-[28px] shrink-0 bg-[var(--accent-strong)]"
+            style={{
+              WebkitMaskImage: `url(${logoMask})`,
+              maskImage: `url(${logoMask})`,
+              WebkitMaskSize: 'contain',
+              maskSize: 'contain',
+              WebkitMaskRepeat: 'no-repeat',
+              maskRepeat: 'no-repeat',
+              WebkitMaskPosition: 'left center',
+              maskPosition: 'left center',
+            }}
+            aria-hidden="true"
+          />
           wilmer@monterrozo<span className="text-[var(--text-muted)]">:~$</span>
           <span className="cursor-block ml-1" />
         </a>
