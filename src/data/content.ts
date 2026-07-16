@@ -110,7 +110,7 @@ export const content: Record<Lang, ContentShape> = {
     about: {
       title: 'About Me',
       text:
-        "I'm a Systems Engineer and Technical Lead with over 6 years of experience across full stack and mobile development, with a strong specialization in React Native and React.js. Throughout my career I've led mobile engineering teams, standardized reusable components that cut deployment time by 20%, and delivered scalable applications across the banking, e-invoicing, and healthcare industries in Latin America. I enjoy cross-functional collaboration, code review, and sprint planning, and I actively incorporate AI-assisted development tools into my daily workflow to ship faster without sacrificing quality.",
+        "Beyond the code, what I care about most is how a team ships. I'm an upbeat, team-oriented developer who enjoys collaborating closely with others to make the development process better — running code reviews and keeping sprint planning grounded in what's realistically achievable, so releases go out on time and hold up once they're live. I like working closely with product, design, and business stakeholders to turn ambiguous requirements into clear technical plans. I've adopted and worked with different AI tools for development — Cursor, GitHub Copilot, and others — which I use daily to move faster without cutting corners on quality.",
     },
     experience: {
       title: 'Professional Experience',
@@ -119,11 +119,11 @@ export const content: Record<Lang, ContentShape> = {
           role: 'Technical Lead - Mobile Development',
           company: 'Digifact',
           location: 'Guatemala (Remote)',
-          date: 'Jun 2024 - Present',
+          date: 'Jun 2024 - Jul 2026',
           summary:
             'Oversee mobile development for a suite of electronic invoicing applications deployed across multiple Latin American countries, combining technical leadership with hands-on development in React Native.',
           bullets: [
-            'Lead the mobile development team at Digifact, a company specialized in electronic invoicing across multiple countries in Latin America.',
+            'Standardize the technical work of the mobile team with shared best practices and a consistent codebase.',
             'Reduced deployment time by 20% by standardizing reusable components in React Native.',
             'Manage team workflows, define sprint goals, review code, and ensure timely releases and updates of the applications.',
             'Coordinate the adoption of new features, React Native ecosystem updates, and emerging technologies in alignment with business goals and regulatory requirements in each country.',
@@ -277,7 +277,7 @@ export const content: Record<Lang, ContentShape> = {
     about: {
       title: 'Sobre Mí',
       text:
-        'Soy Ingeniero en Sistemas y Technical Lead con más de 6 años de experiencia en desarrollo full stack y móvil, con una fuerte especialización en React Native y React.js. A lo largo de mi carrera he liderado equipos de ingeniería móvil, estandaricé componentes reutilizables que redujeron el tiempo de despliegue en un 20%, y entregué aplicaciones escalables en los sectores bancario, de facturación electrónica y salud en Latinoamérica. Disfruto la colaboración multidisciplinaria, el code review y la planificación de sprints, e incorporo activamente herramientas de desarrollo asistido por IA en mi flujo de trabajo diario para entregar más rápido sin sacrificar calidad.',
+        'Más allá del código, lo que más me importa es cómo un equipo entrega resultados. Soy una persona animada y orientada al trabajo en equipo, que disfruta colaborar de cerca con otros para mejorar el proceso de desarrollo — revisando código y manteniendo la planificación de sprints anclada en lo que es realmente alcanzable, para que los lanzamientos salgan a tiempo y se sostengan en producción. Me gusta trabajar de cerca con producto, diseño y áreas de negocio para convertir requerimientos ambiguos en planes técnicos claros. He adoptado y trabajado con distintas herramientas de IA para desarrollo — Cursor, GitHub Copilot y otras — que uso a diario para avanzar más rápido sin sacrificar calidad.',
     },
     experience: {
       title: 'Experiencia Profesional',
@@ -286,11 +286,11 @@ export const content: Record<Lang, ContentShape> = {
           role: 'Technical Lead - Desarrollo Móvil',
           company: 'Digifact',
           location: 'Guatemala (Remoto)',
-          date: 'Jun 2024 - Presente',
+          date: 'Jun 2024 - Jul 2026',
           summary:
             'Superviso el desarrollo móvil de una suite de aplicaciones de facturación electrónica desplegadas en varios países de Latinoamérica, combinando liderazgo técnico con desarrollo práctico en React Native.',
           bullets: [
-            'Lidero el equipo de desarrollo móvil en Digifact, empresa especializada en facturación electrónica en múltiples países de Latinoamérica.',
+            'Estandarizo el trabajo técnico del equipo móvil con buenas prácticas compartidas y un manejo de código consistente.',
             'Reduje el tiempo de despliegue en un 20% al estandarizar componentes reutilizables en React Native.',
             'Gestiono los flujos de trabajo del equipo, defino objetivos de sprint, reviso código y aseguro lanzamientos y actualizaciones puntuales de las aplicaciones.',
             'Coordino la adopción de nuevas funcionalidades, actualizaciones del ecosistema React Native y tecnologías emergentes, alineadas con los objetivos del negocio y los requisitos regulatorios de cada país.',
